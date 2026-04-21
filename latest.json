@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "timestamp": "2026-04-21T16:57:46.464914Z",
+  "timestamp": "2026-04-21T19:01:40.980999Z",
   "system": "TENVARIS INQDATA Engine v1.0.0",
   "signal": {
     "FDRI": 0.4126,
@@ -20,7 +20,7 @@
   },
   "trade_recommendation": {
     "core_action": "LONG SPY \u2014 REDUCED 50%",
-    "core_instrument": "SPY @ ~$705.93",
+    "core_instrument": "SPY @ ~$706.08",
     "hedge_type": "LONG STRADDLE + ELEVATED VOL",
     "put_instrument": "SPY Put $657",
     "put_strike_pct": -7.0,
@@ -32,10 +32,10 @@
     "rec_hash": "295d2dcb3d5a"
   },
   "derivatives": {
-    "vix_spot": 19.950000762939453,
-    "vix_3m": 21.719999313354492,
+    "vix_spot": 19.979999542236328,
+    "vix_3m": 21.709999084472656,
     "skew": 141.89999389648438,
-    "vvix": 100.23999786376953,
+    "vvix": 100.5,
     "term_structure": "CONTANGO",
     "stress_level": "HIGH",
     "aggregate_score": 0.58
