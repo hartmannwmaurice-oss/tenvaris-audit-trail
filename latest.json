@@ -1,48 +1,48 @@
 {
-  "date": "2026-05-05",
-  "timestamp": "2026-05-05T19:01:35.266396Z",
+  "date": "2026-05-06",
+  "timestamp": "2026-05-06T19:01:39.198576Z",
   "system": "TENVARIS INQDATA Engine v1.0.0",
   "signal": {
-    "FDRI": 0.3907,
-    "F_t": 0.3721,
-    "regime": "Systemic",
+    "FDRI": 0.3468,
+    "F_t": 0.3303,
+    "regime": "Overheat",
     "signal": "ACT",
-    "A_t": 1.2765,
+    "A_t": 1.196,
     "collar": "moderate",
-    "calc_hash": "25a6400458f2",
+    "calc_hash": "08132ff4bb04",
     "L_t": 0.3834,
-    "V_t": 0.462,
+    "V_t": 0.3815,
     "C_t": 0.3572,
     "Q_t": 0.1614,
-    "LCRI_t": 0.3301,
-    "p_stable": 0.0232,
-    "p_stress": 0.7033
+    "LCRI_t": 0.2726,
+    "p_stable": 0.133,
+    "p_stress": 0.6242
   },
   "trade_recommendation": {
-    "core_action": "LONG SPY \u2014 REDUCED 50%",
-    "core_instrument": "SPY @ ~$724.36",
-    "hedge_type": "LONG STRADDLE + ELEVATED VOL",
-    "put_instrument": "SPY Put $674",
-    "put_strike_pct": -7.0,
+    "core_action": "LONG SPY \u2014 REDUCED",
+    "core_instrument": "SPY @ ~$732.98",
+    "hedge_type": "PARTIAL COLLAR",
+    "put_instrument": "SPY Put $696",
+    "put_strike_pct": -5.0,
     "put_expiry": "2026-06-19",
-    "call_instrument": "SPY ATM Call $724",
-    "payoff_up": 4.5,
-    "payoff_down": 4.5,
-    "max_loss": 1.8,
-    "rec_hash": "c8748243c0ec"
+    "call_instrument": "SPY Call $792",
+    "payoff_up": 6.8,
+    "payoff_down": -0.9,
+    "max_loss": 4.2,
+    "rec_hash": "b4f3ec2a4a0c"
   },
   "derivatives": {
-    "vix_spot": 17.290000915527344,
-    "vix_3m": 20.649999618530273,
-    "skew": 141.74000549316406,
-    "vvix": 94.97000122070312,
+    "vix_spot": 17.1200008392334,
+    "vix_3m": 20.450000762939453,
+    "skew": 138.74000549316406,
+    "vvix": 93.06999969482422,
     "term_structure": "CONTANGO",
     "stress_level": "ELEVATED",
-    "aggregate_score": 0.475
+    "aggregate_score": 0.385
   },
   "audit": {
     "immutable": true,
-    "chain_hash": "25a6400458f2",
+    "chain_hash": "08132ff4bb04",
     "note": "Signal generated before market open. Cannot be retroactively modified."
   }
 }
