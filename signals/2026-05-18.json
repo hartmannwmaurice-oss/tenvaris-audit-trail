@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-18",
+  "timestamp": "2026-05-18T19:01:36.037692Z",
+  "system": "TENVARIS INQDATA Engine v1.0.0",
+  "signal": {
+    "FDRI": 0.3993,
+    "F_t": 0.3803,
+    "regime": "Systemic",
+    "signal": "ACT",
+    "A_t": 1.2867,
+    "collar": "moderate",
+    "calc_hash": "c9323396de5e",
+    "L_t": 0.3823,
+    "V_t": 0.477,
+    "C_t": 0.3549,
+    "Q_t": 0.1709,
+    "LCRI_t": 0.3385,
+    "p_stable": 0.0017,
+    "p_stress": 0.7188
+  },
+  "trade_recommendation": {
+    "core_action": "LONG SPY \u2014 REDUCED 50%",
+    "core_instrument": "SPY @ ~$733.48",
+    "hedge_type": "LONG STRADDLE + ELEVATED VOL",
+    "put_instrument": "SPY Put $682",
+    "put_strike_pct": -7.0,
+    "put_expiry": "2026-07-17",
+    "call_instrument": "SPY ATM Call $733",
+    "payoff_up": 4.5,
+    "payoff_down": 4.5,
+    "max_loss": 1.8,
+    "rec_hash": "b23aa56eb39d"
+  },
+  "derivatives": {
+    "vix_spot": 18.6200008392334,
+    "vix_3m": 21.389999389648438,
+    "skew": 145.77000427246094,
+    "vvix": 93.19999694824219,
+    "term_structure": "CONTANGO",
+    "stress_level": "ELEVATED",
+    "aggregate_score": 0.475
+  },
+  "audit": {
+    "immutable": true,
+    "chain_hash": "c9323396de5e",
+    "note": "Signal generated before market open. Cannot be retroactively modified."
+  }
+}
