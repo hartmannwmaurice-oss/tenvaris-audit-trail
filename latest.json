@@ -1,48 +1,48 @@
 {
-  "date": "2026-05-18",
-  "timestamp": "2026-05-18T19:01:36.037692Z",
+  "date": "2026-05-19",
+  "timestamp": "2026-05-19T19:01:24.902455Z",
   "system": "TENVARIS INQDATA Engine v1.0.0",
   "signal": {
-    "FDRI": 0.3993,
-    "F_t": 0.3803,
+    "FDRI": 0.4323,
+    "F_t": 0.4117,
     "regime": "Systemic",
     "signal": "ACT",
-    "A_t": 1.2867,
+    "A_t": 1.5001,
     "collar": "moderate",
-    "calc_hash": "c9323396de5e",
-    "L_t": 0.3823,
+    "calc_hash": "5e523c74a2f6",
+    "L_t": 0.303,
     "V_t": 0.477,
-    "C_t": 0.3549,
+    "C_t": 0.4616,
     "Q_t": 0.1709,
-    "LCRI_t": 0.3385,
-    "p_stable": 0.0017,
-    "p_stress": 0.7188
+    "LCRI_t": 0.4403,
+    "p_stable": 0.0,
+    "p_stress": 0.7781
   },
   "trade_recommendation": {
     "core_action": "LONG SPY \u2014 REDUCED 50%",
-    "core_instrument": "SPY @ ~$733.48",
+    "core_instrument": "SPY @ ~$734.34",
     "hedge_type": "LONG STRADDLE + ELEVATED VOL",
-    "put_instrument": "SPY Put $682",
+    "put_instrument": "SPY Put $683",
     "put_strike_pct": -7.0,
     "put_expiry": "2026-07-17",
-    "call_instrument": "SPY ATM Call $733",
+    "call_instrument": "SPY ATM Call $734",
     "payoff_up": 4.5,
     "payoff_down": 4.5,
     "max_loss": 1.8,
-    "rec_hash": "b23aa56eb39d"
+    "rec_hash": "cb7839708843"
   },
   "derivatives": {
-    "vix_spot": 18.6200008392334,
-    "vix_3m": 21.389999389648438,
-    "skew": 145.77000427246094,
-    "vvix": 93.19999694824219,
+    "vix_spot": 17.989999771118164,
+    "vix_3m": 21.030000686645508,
+    "skew": 138.39999389648438,
+    "vvix": 94.73999786376953,
     "term_structure": "CONTANGO",
     "stress_level": "ELEVATED",
-    "aggregate_score": 0.475
+    "aggregate_score": 0.385
   },
   "audit": {
     "immutable": true,
-    "chain_hash": "c9323396de5e",
+    "chain_hash": "5e523c74a2f6",
     "note": "Signal generated before market open. Cannot be retroactively modified."
   }
 }
