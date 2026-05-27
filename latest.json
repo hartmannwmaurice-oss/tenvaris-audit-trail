@@ -1,48 +1,48 @@
 {
-  "date": "2026-05-26",
-  "timestamp": "2026-05-26T19:01:39.798934Z",
+  "date": "2026-05-27",
+  "timestamp": "2026-05-27T19:01:37.438459Z",
   "system": "TENVARIS INQDATA Engine v1.0.0",
   "signal": {
-    "FDRI": 0.3414,
-    "F_t": 0.3251,
+    "FDRI": 0.3455,
+    "F_t": 0.329,
     "regime": "Overheat",
     "signal": "ACT",
-    "A_t": 1.1385,
+    "A_t": 1.1365,
     "collar": "moderate",
-    "calc_hash": "ca89cf1f616f",
-    "L_t": 0.4712,
-    "V_t": 0.3664,
-    "C_t": 0.336,
+    "calc_hash": "24367378d649",
+    "L_t": 0.3875,
+    "V_t": 0.3977,
+    "C_t": 0.3194,
     "Q_t": 0.1795,
-    "LCRI_t": 0.2463,
-    "p_stable": 0.1465,
-    "p_stress": 0.6145
+    "LCRI_t": 0.2541,
+    "p_stable": 0.1364,
+    "p_stress": 0.6218
   },
   "trade_recommendation": {
     "core_action": "LONG SPY \u2014 REDUCED",
-    "core_instrument": "SPY @ ~$749.24",
+    "core_instrument": "SPY @ ~$750.85",
     "hedge_type": "PARTIAL COLLAR",
-    "put_instrument": "SPY Put $712",
+    "put_instrument": "SPY Put $713",
     "put_strike_pct": -5.0,
     "put_expiry": "2026-06-19",
-    "call_instrument": "SPY Call $809",
+    "call_instrument": "SPY Call $811",
     "payoff_up": 6.8,
     "payoff_down": -0.9,
     "max_loss": 4.2,
-    "rec_hash": "b740a6deac92"
+    "rec_hash": "4affd32378a2"
   },
   "derivatives": {
-    "vix_spot": 17.09000015258789,
-    "vix_3m": 19.8799991607666,
-    "skew": 137.38999938964844,
-    "vvix": 89.11000061035156,
+    "vix_spot": 16.549999237060547,
+    "vix_3m": 19.6299991607666,
+    "skew": 139.0399932861328,
+    "vvix": 89.0999984741211,
     "term_structure": "CONTANGO",
     "stress_level": "ELEVATED",
     "aggregate_score": 0.315
   },
   "audit": {
     "immutable": true,
-    "chain_hash": "ca89cf1f616f",
+    "chain_hash": "24367378d649",
     "note": "Signal generated before market open. Cannot be retroactively modified."
   }
 }
