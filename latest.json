@@ -1,48 +1,48 @@
 {
-  "date": "2026-06-24",
-  "timestamp": "2026-06-24T19:01:59.226551Z",
+  "date": "2026-06-25",
+  "timestamp": "2026-06-25T19:01:45.365844Z",
   "system": "TENVARIS INQDATA Engine v1.0.0",
   "signal": {
-    "FDRI": 0.4812,
-    "F_t": 0.4583,
+    "FDRI": 0.4782,
+    "F_t": 0.4554,
     "regime": "Crash Setup",
     "signal": "ACT",
-    "A_t": 1.469,
+    "A_t": 1.5515,
     "collar": "elevated",
-    "calc_hash": "61eb5fa26ff1",
-    "L_t": 0.4231,
-    "V_t": 0.5853,
-    "C_t": 0.3918,
+    "calc_hash": "451554e73a4d",
+    "L_t": 0.4398,
+    "V_t": 0.5292,
+    "C_t": 0.4611,
     "Q_t": 0.2011,
-    "LCRI_t": 0.4587,
+    "LCRI_t": 0.4881,
     "p_stable": 0.0,
-    "p_stress": 0.8661
+    "p_stress": 0.8607
   },
   "trade_recommendation": {
     "core_action": "MINIMAL LONG + SHORT OVERLAY",
-    "core_instrument": "SPY @ ~$732.09 + SH ETF",
+    "core_instrument": "SPY @ ~$733.95 + SH ETF",
     "hedge_type": "PURE LONG VOLATILITY + SHORT",
-    "put_instrument": "SPY Put Spread $659/$586",
+    "put_instrument": "SPY Put Spread $661/$587",
     "put_strike_pct": -10.0,
     "put_expiry": "2026-08-21",
     "call_instrument": "SH ETF (Short S&P500)",
     "payoff_up": 0.2,
     "payoff_down": 26.0,
     "max_loss": 3.2,
-    "rec_hash": "c6d5e92cb025"
+    "rec_hash": "a8ee8f6c0ca1"
   },
   "derivatives": {
-    "vix_spot": 19.5,
-    "vix_3m": 20.959999084472656,
-    "skew": 143.13999938964844,
-    "vvix": 97.80000305175781,
+    "vix_spot": 18.920000076293945,
+    "vix_3m": 20.3700008392334,
+    "skew": 145.3000030517578,
+    "vvix": 92.98999786376953,
     "term_structure": "CONTANGO",
     "stress_level": "ELEVATED",
     "aggregate_score": 0.475
   },
   "audit": {
     "immutable": true,
-    "chain_hash": "61eb5fa26ff1",
+    "chain_hash": "451554e73a4d",
     "note": "Signal generated before market open. Cannot be retroactively modified."
   }
 }
