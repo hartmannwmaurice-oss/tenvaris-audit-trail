@@ -1,0 +1,48 @@
+{
+  "date": "2026-07-20",
+  "timestamp": "2026-07-20T19:01:49.977536Z",
+  "system": "TENVARIS INQDATA Engine v1.0.0",
+  "signal": {
+    "FDRI": 0.5117,
+    "F_t": 0.4873,
+    "regime": "Crash Setup",
+    "signal": "ACT",
+    "A_t": 1.6054,
+    "collar": "elevated",
+    "calc_hash": "bc7da34c456f",
+    "L_t": 0.3774,
+    "V_t": 0.6014,
+    "C_t": 0.452,
+    "Q_t": 0.2068,
+    "LCRI_t": 0.5437,
+    "p_stable": 0.0,
+    "p_stress": 0.9
+  },
+  "trade_recommendation": {
+    "core_action": "MINIMAL LONG + SHORT OVERLAY",
+    "core_instrument": "SPY @ ~$742.82 + SH ETF",
+    "hedge_type": "PURE LONG VOLATILITY + SHORT",
+    "put_instrument": "SPY Put Spread $669/$594",
+    "put_strike_pct": -10.0,
+    "put_expiry": "2026-09-18",
+    "call_instrument": "SH ETF (Short S&P500)",
+    "payoff_up": 0.2,
+    "payoff_down": 26.0,
+    "max_loss": 3.2,
+    "rec_hash": "7ddd9b0c0a18"
+  },
+  "derivatives": {
+    "vix_spot": 18.440000534057617,
+    "vix_3m": 20.25,
+    "skew": 147.27999877929688,
+    "vvix": 103.20999908447266,
+    "term_structure": "CONTANGO",
+    "stress_level": "HIGH",
+    "aggregate_score": 0.58
+  },
+  "audit": {
+    "immutable": true,
+    "chain_hash": "bc7da34c456f",
+    "note": "Signal generated before market open. Cannot be retroactively modified."
+  }
+}
