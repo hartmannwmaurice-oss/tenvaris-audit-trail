@@ -1,48 +1,48 @@
 {
-  "date": "2026-08-04",
-  "timestamp": "2026-08-04T19:02:53.360456Z",
+  "date": "2026-08-05",
+  "timestamp": "2026-08-05T19:03:01.669707Z",
   "system": "TENVARIS INQDATA Engine v1.0.0",
   "signal": {
-    "FDRI": 0.4716,
-    "F_t": 0.4491,
-    "regime": "Crash Setup",
+    "FDRI": 0.4173,
+    "F_t": 0.3974,
+    "regime": "Systemic",
     "signal": "ACT",
-    "A_t": 1.9229,
+    "A_t": 1.4707,
     "collar": "moderate",
-    "calc_hash": "07bad14ca8f0",
-    "L_t": 0.3087,
-    "V_t": 0.3753,
-    "C_t": 0.7238,
+    "calc_hash": "83bff8fe8aef",
+    "L_t": 0.3213,
+    "V_t": 0.4286,
+    "C_t": 0.471,
     "Q_t": 0.2252,
-    "LCRI_t": 0.5433,
+    "LCRI_t": 0.4038,
     "p_stable": 0.0,
-    "p_stress": 0.8489
+    "p_stress": 0.7511
   },
   "trade_recommendation": {
-    "core_action": "MINIMAL LONG + SHORT OVERLAY",
-    "core_instrument": "SPY @ ~$772.17 + SH ETF",
-    "hedge_type": "PURE LONG VOLATILITY + SHORT",
-    "put_instrument": "SPY Put Spread $695/$618",
-    "put_strike_pct": -10.0,
+    "core_action": "LONG SPY \u2014 REDUCED 50%",
+    "core_instrument": "SPY @ ~$771.43",
+    "hedge_type": "LONG STRADDLE + ELEVATED VOL",
+    "put_instrument": "SPY Put $717",
+    "put_strike_pct": -7.0,
     "put_expiry": "2026-09-18",
-    "call_instrument": "SH ETF (Short S&P500)",
-    "payoff_up": 0.2,
-    "payoff_down": 26.0,
-    "max_loss": 3.2,
-    "rec_hash": "d1c929ebaece"
+    "call_instrument": "SPY ATM Call $771",
+    "payoff_up": 4.5,
+    "payoff_down": 4.5,
+    "max_loss": 1.8,
+    "rec_hash": "42527baf8725"
   },
   "derivatives": {
-    "vix_spot": 16.3700008392334,
-    "vix_3m": 19.18000030517578,
-    "skew": 139.9600067138672,
-    "vvix": 91.36000061035156,
+    "vix_spot": 15.640000343322754,
+    "vix_3m": 18.850000381469727,
+    "skew": 126.41000366210938,
+    "vvix": 89.4800033569336,
     "term_structure": "CONTANGO",
-    "stress_level": "ELEVATED",
-    "aggregate_score": 0.385
+    "stress_level": "NORMAL",
+    "aggregate_score": 0.225
   },
   "audit": {
     "immutable": true,
-    "chain_hash": "07bad14ca8f0",
+    "chain_hash": "83bff8fe8aef",
     "note": "Signal generated before market open. Cannot be retroactively modified."
   }
 }
