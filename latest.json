@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-28",
-  "timestamp": "2026-08-28T19:03:09.737209Z",
+  "date": "2026-08-31",
+  "timestamp": "2026-08-31T19:03:07.324056Z",
   "system": "TENVARIS INQDATA Engine v1.0.0",
   "signal": {
-    "FDRI": 0.3034,
-    "F_t": 0.2889,
+    "FDRI": 0.29,
+    "F_t": 0.2762,
     "regime": "Normal",
     "signal": "ACT",
-    "A_t": 1.0065,
+    "A_t": 0.9155,
     "collar": "calm",
-    "calc_hash": "0f0032723aa7",
-    "L_t": 0.3007,
-    "V_t": 0.336,
-    "C_t": 0.2852,
-    "Q_t": 0.244,
-    "LCRI_t": 0.1917,
-    "p_stable": 0.2416,
-    "p_stress": 0.5461
+    "calc_hash": "0a9701b458af",
+    "L_t": 0.356,
+    "V_t": 0.3241,
+    "C_t": 0.2457,
+    "Q_t": 0.2519,
+    "LCRI_t": 0.1593,
+    "p_stable": 0.2749,
+    "p_stress": 0.522
   },
   "trade_recommendation": {
     "core_action": "LONG SPY",
@@ -29,20 +29,20 @@
     "payoff_up": 4.6,
     "payoff_down": -1.0,
     "max_loss": 6.4,
-    "rec_hash": "50027ca4c15f"
+    "rec_hash": "67b261061558"
   },
   "derivatives": {
-    "vix_spot": 14.479999542236328,
-    "vix_3m": 17.479999542236328,
-    "skew": 144.0500030517578,
-    "vvix": 86.75,
+    "vix_spot": 15.180000305175781,
+    "vix_3m": 17.68000030517578,
+    "skew": 149.77000427246094,
+    "vvix": 87.69000244140625,
     "term_structure": "CONTANGO",
     "stress_level": "ELEVATED",
     "aggregate_score": 0.405
   },
   "audit": {
     "immutable": true,
-    "chain_hash": "0f0032723aa7",
+    "chain_hash": "0a9701b458af",
     "note": "Signal generated before market open. Cannot be retroactively modified."
   }
 }
